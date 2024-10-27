@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Overwatch 2 - Menu Skins</title>
+  <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+  <meta name="description" content="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #23272a, #2c2f33);
+      color: #ffffff;
+      display: flex;
+    }
+
+    .sidebar {
+  background-color: #2c2f33;
+  padding: 15px;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+    .sidebar::-webkit-scrollbar {
+      width: 0; 
+      background: transparent;
+    }
+
+    .sidebar {
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .sidebar h2 {
+      color: #7289da;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      color: #ffffff;
+      text-decoration: none;
+      display: block;
+      padding: 8px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #7289da;
+    }
+
+    .notification {
+      position: fixed;
+      top: 0;
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+      display: none;
+    }
+
+    .image-container {
+      margin-left: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding-top: 20px;
+    }
+
+    .image-box {
+      border: 2px solid #7289da;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      background-color: #2c2f33;
+      text-align: center;
+      width: 500px;
+      max-width: 90%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="sidebar">
+    <h2>Menu Skins</h2>
+    <a href="#heroes">Heroes</a>
+    <a href="#zero-hour">Zero Hour</a>
+    <a href="#sojourn">Sojourn</a>
+    <a href="#genji-cyberdemon-1">Genji Cyberdemon Mythic Skin 1</a>
+    <a href="#genji-cyberdemon-2">Genji Cyberdemon Mythic Skin 2</a>
+    <a href="#genji-cyberdemon-3">Genji Cyberdemon Mythic Skin 3</a>
+    <a href="#winter-wonderland">Winter Wonderland 2022</a>
+    <a href="#lunar-new-year-2023">Lunar New Year 2023</a>
+    <a href="#hanzo-cupid">Hanzo Cupid</a>
+    <a href="#galactic-emperor-sigma">Galactic Emperor Sigma</a>
+    <a href="#summer-games">Summer Games</a>
+    <a href="#gothenburg-mothership">Gothenburg Mothership</a>
+    <a href="#overwatch-world-cup">Overwatch World Cup</a>
+    <a href="#overwatch-league">Overwatch League</a>
+    <a href="#lunar-new-year-dva">Lunar New Year (D.VA)</a>
+    <a href="#ancient-caller-moira">Ancient Caller Moira</a>
+    <a href="#venture-art">Venture Art</a>
+    <a href="#mirrorwatch">Mirrorwatch</a>
+    <a href="#mirrorwatch-art">Mirrorwatch Art</a>
+    <a href="#porsche-collab">Porsche Collab Art</a>
+    <a href="#rose-gold-mercy">Rose Gold Mercy</a>
+    <a href="#summer-2024">Summer 2024 (Lifeweaver and Kiriko)</a>
+    <a href="#reinhardt-bound-demon">Reinhardt's Mythic Weapon - Bound Demon</a>
+    <a href="#owcs-2024">OWCS 2024 Finals</a>
+  </div>
+  <div class="notification" id="notification">Code copied to clipboard!</div>
+  <div class="image-container">
+    <div class="image-box" id="instructions">
+      <h1>To activate the skins go to Steam > Overwatch 2 > Properties > General > Launch Options</h1>
+      <h1>Paste in the skin code you want to use and it'll activate when you open overwatch.</h1>
+      <h1>To get the skin code just click on the image and it'll copy it to clipboard.</h1>
+    </div>
+    <div class="image-box" id="heroes">
+      <h1>Heroes</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000E77.jpg" alt="Heroes" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="zero-hour">
+      <h1>Zero Hour</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000EFB.jpg" alt="Zero Hour" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="sojourn">
+      <h1>Sojourn</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000D6C.jpg" alt="Sojourn" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="genji-cyberdemon-1">
+      <h1>Genji Cyberdemon Mythic skin 1</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000F11.jpg" alt="Genji Cyberdemon Mythic skin" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="genji-cyberdemon-2">
+      <h1>Genji Cyberdemon Mythic skin 2</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000EFA.jpg" alt="Genji Cyberdemon Mythic skin" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="genji-cyberdemon-3">
+      <h1>Genji Cyberdemon Mythic skin 3</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000F12.jpg" alt="Genji Cyberdemon Mythic skin" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="winter-wonderland">
+      <h1>Winter Wonderland 2022</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000D77.jpg" alt="Winter Wonderland 2022" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="lunar-new-year-2023">
+      <h1>Lunar New Year 2023</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000DAD.jpg" alt="Lunar New Year 2023" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="hanzo-cupid">
+      <h1>Hanzo Cupid</h1>
+      <img src="Images\3099694051_preview_--lobbyMap_0x0800000000000B6B.jpg" alt="Hanzo Cupid" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="galactic-emperor-sigma">
+      <h1>Galactic Emperor Sigma</h1>
+      <img src="Images\3099694051_preview_--lobbyMap_0x0800000000001032.jpg" alt="Galactic Emperor Sigma" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="summer-games">
+      <h1>Summer Games</h1>
+      <img src="Images\3099694051_preview_--lobbyMap_0x0800000000000BCE.jpg" alt="Summer Games" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="gothenburg-mothership">
+      <h1>Gothenburg Mothership</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000001104.jpg" alt="Gothenburg Mothership" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="overwatch-world-cup">
+      <h1>Overwatch World Cup</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000817.jpg" alt="Overwatch World Cup" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="overwatch-league">
+      <h1>Overwatch League</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000864.jpg" alt="Overwatch League" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="lunar-new-year-dva">
+      <h1>Lunar New Year (D.VA)</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000000710.jpg" alt="Lunar New Year (D.VA)" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="ancient-caller-moira">
+      <h1>Ancient Caller Moira</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000001200.jpg" alt="Ancient Caller Moira" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="venture-art">
+      <h1>Venture Art</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x080000000000121A.jpg" alt="Venture Art" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="mirrorwatch">
+      <h1>Mirrorwatch</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x080000000000121E.jpg" alt="Mirrorwatch" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="mirrorwatch-art">
+      <h1>Mirrorwatch Art</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x08000000000010AC_gfdgdfsg.jpg" alt="Mirrorwatch Art" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="porsche-collab">
+      <h1>Porsche Collab Art</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000001219.jpg" alt="Porsche Collab Art" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="rose-gold-mercy">
+      <h1>Rose Gold Mercy</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x08000000000008BA%202024.jpg" alt="Rose Gold Mercy" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="summer-2024">
+      <h1>Summer 2024 (Lifeweaver and Kiriko)</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000001249.jpg" alt="Summer 2024 (Lifeweaver and Kiriko)" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="reinhardt-bound-demon">
+      <h1>Reinhardt's Mythic Weapon - Bound Demon</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x080000000000124A 2024.jpg" alt="Reinhardt's Mythic Weapon - Bound Demon" onclick="copyCode(this)">
+    </div>
+    <div class="image-box" id="owcs-2024">
+      <h1>OWCS 2024 Finals</h1>
+      <img src="Images/3099694051_preview_--lobbyMap_0x0800000000001276.jpg" alt="OWCS 2024 Finals" onclick="copyCode(this)">
+    </div>
+  </div>
+
+  <script>
+    function copyCode(imageElement) {
+      const imagePath = imageElement.src;
+      const match = imagePath.match(/--lobbyMap_(0x[0-9A-Fa-f]+)/);
+      if (match) {
+        const code = `--lobbyMap=${match[1]}`;
+        navigator.clipboard.writeText(code).then(() => {
+          const notification = document.getElementById("notification");
+          notification.style.display = "block";
+          setTimeout(() => {
+            notification.style.display = "none";
+          }, 2000);
+        });
+      }
+    }
+  </script>
+</body>
+</html>
